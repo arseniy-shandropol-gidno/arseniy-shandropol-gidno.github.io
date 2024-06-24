@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/style.css">
+        <title>PermissionV1</title>
     </head>
     <body>
         <div class="global-text">
@@ -53,6 +54,7 @@
                         <th>Ідентифікаційний номер ІМО (за наявності)</th>
                         <th>Міжнародний радіопозивний (за наявності)</th>
                         <th>Місце базування риболовного судна/назва порту</th>
+                        <th>Потужність двигуна (кВт/кінських сил)</th>
                     </tr>
                     [#list fishing_ships_list as item]
                     <tr>
@@ -63,6 +65,7 @@
                         <td>[=item.ship_imo]</td>
                         <td>[=item.ship_radio_sign]</td>
                         <td>[=item.ship_base_location]</td>
+                        <td>[=item.ship_power]</td>
                     </tr>
                     [/#list]
                 </table>
