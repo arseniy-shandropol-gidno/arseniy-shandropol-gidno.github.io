@@ -1,0 +1,167 @@
+.invoice_structure {
+  font-family: 'PTSerif-Regular', serif;
+  font-size: 14px;
+}
+
+.doc_header_center {
+  text-align: center;
+  margin-top: 10px; /* Add margin to create space */
+}
+
+.invoice_given_date {
+  text-align: center;
+  margin: auto;
+}
+
+.doc_header_center {
+  margin: 5px 0; /* Adjust the margin values as needed */
+}
+
+.info_about {
+  text-align: left;
+  margin-bottom: 10px;
+  text-indent: 30px;
+}
+
+.fisherie_name {
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-indent: 30px; /* Add margin to create space */
+}
+
+.table_fisherie {
+  margin: auto;
+  width: 95%; /* Adjust the width as needed */
+  padding: 5px;
+  /* Add more styling as needed */
+}
+
+.table_fisherie table {
+  width: 100%; /* Adjust the width as needed */
+  border-collapse: collapse;
+  table-layout: fixed; /* This is important */
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.table_fisherie th, td {
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: middle;
+  padding: 8px;
+  font-weight: normal;
+}
+
+.table_stakeholder {
+  margin: auto;
+  width: 95%; /* Adjust the width as needed */
+  padding: 5px;
+}
+
+.table_stakeholder table {
+  width: 100%; /* Adjust the width as needed */
+  border-collapse: collapse;
+  table-layout: fixed; /* This is important */
+  font-size: 14px;
+}
+
+.table_stakeholder th, td {
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: middle;
+  padding: 8px;
+  font-weight: normal;
+}
+
+.table_fish {
+  margin: auto;
+  width: 95%; /* Adjust the width as needed */
+  padding: 10px;
+}
+
+.table_fish table {
+  width: 100%; /* Adjust the width as needed */
+  border-collapse: collapse;
+  table-layout: fixed; /* This is important */
+  font-size: 14px;
+}
+
+.table_fish th, td {
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: middle;
+  padding: 8px;
+  font-weight: normal;
+}
+
+.table_signs {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 95%; /* Adjust the width as needed */
+  padding: 10px;
+}
+
+.table_signs table {
+  width: 100%; /* Adjust the width as needed */
+  border-collapse: collapse;
+  table-layout: fixed; /* This is important */
+  font-size: 14px;
+}
+
+.table_signs th {
+  border: 0;
+  text-align: left;
+  vertical-align: middle;
+  padding: 8px;
+  font-weight: normal;
+}
+
+.table_signs td {
+  border: 0;
+  text-align: left;
+  vertical-align: middle;
+  padding: 8px;
+  font-weight: normal;
+}
+.table_signs th#second{
+  border: 0;
+  text-align: right;
+  vertical-align: middle;
+  padding: 8px;
+  font-weight: normal;
+}
+
+.table_signs td#second{
+  border: 0;
+  text-align: right;
+  vertical-align: middle;
+  padding: 8px;
+  font-weight: normal;
+}
+
+.custom-table-layout th:nth-child(1), .custom-table-layout td:nth-child(1) {
+    width: 10%;
+}
+
+.custom-table-layout th:nth-child(2), .custom-table-layout td:nth-child(2),
+.custom-table-layout th:nth-child(3), .custom-table-layout td:nth-child(3) {
+    width: 45%;
+}
+
+.custom-table-layout {
+    width: 95%; /* Make the table use the full width of its container */
+    border-collapse: collapse; /* Collapse borders between cells */
+    padding: 10px;
+    margin-left: auto; /* Center the table horizontally */
+    margin-right: auto; /* Center the table horizontally */
+}
+
+.custom-table-layout th, .custom-table-layout td {
+    border: 1px solid black; /* Add a border for visibility */
+    text-align: center; /* Align the text to the center */
+    padding: 8px; /* Add padding inside the cells */
+}
+

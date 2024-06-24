@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en, ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice efish</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="invoice_structure">
+
+        <div class="doc_header_center">
+            <p>Квитанція обліку</p>
+            <p>добутих (виловлених) водних біоресурсів <b>№ [=journal_number]</b></p>
+        </div>
+
+        <div class="invoice_given_date">
+            <p>Дата оформлення квитанції <b>[=receipt_gen_date]</b></p>
+        </div>
+
+        <div class="fisherie_name">
+            <p>Назва рибогосподарського водного об’єкта (його частини): <b>[=water_object_name]</b></p>
+        </div>
+
+        <div class="info_about">
+            <p>Інформація про сторони</p>
+        </div>
+
+        <div class="table_fisherie">
+            <table>
+                <tr>
+                    <th>суб’єкта рибного господарства</th>
+                    <th>рибоприймальний пункт</th>
+                </tr>
+                <tr>
+                    <td>
+                        ПІБ: <b>[=subject_legalentity_dir]</b>
+                        <br> ЄДРПОУ: <b>[=subject_legalentity_code]</b>
+                        <br>Повне найменування: <b>[=subject_legalentity_name]</b>
+                    </td>
+                    <td>
+                        реєстраційний номер експлуатаційного дозволу: <b>[=fishing_station_permit_reg_number]</b>
+                        <br> особистий реєстраційний номер потужності: <b>[=fishing_station_own_reg_number]</b>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="info_about">
+            <p>Інформація про відповідальних осіб</p>
+        </div>
+
+        <div class="table_stakeholder">
+            <table>
+                <tr>
+                    <th>Відповідальний на рибоприймальному пункті</th>
+                    <th>Відповідальний за добування (вилов) водних біоресурсів</th>
+                </tr>
+                <tr>
+                    <td> [=fullname_person_ship] 
+                        <br> [=rnokpp_person_ship] 
+                    </td>
+                    <td> [=fullname_person_fishstation] 
+                        <br> [=rnokpp_person_fishstation] 
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="info_about">
+            <p>Інформація про вилов водних біоресурсів</p>
+        </div>
+
+        <div class="table_fish">
+            <table class="custom-table-layout">
+                <tr>
+                    <th>№ з/п</th>
+                    <th>Назва виду добутих (виловлених) водних біоресурсів</th>
+                    <th>Обсяги добутих (виловлених) водних біоресурсів, кг</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Плоскирка Blicca bjoerkna</td>
+                    <td>1253</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Лящ Abramis brama</td>
+                    <td>5865</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Судак звичайний Sander lucioperca</td>
+                    <td>48226</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="table_signs">
+            <table>
+                <tr>
+                    <th>Підписано в системі відповідальною особою <br>на рибоприймальному пункті</th>
+                    <th id="second">Підписано в системі відповідальною особою за <br>добування (вилов) водних біоресурсів</th>
+                </tr>
+                <tr>
+                    <td>12.02.2024 12:36</td>
+                    <td id="second">12.02.2024 13:51</td>
+                </tr>
+            </table>
+        </div>
+
+</body>
+</html>

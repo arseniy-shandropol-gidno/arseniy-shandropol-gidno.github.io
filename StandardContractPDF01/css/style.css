@@ -1,0 +1,119 @@
+/*
+  @font-face {
+    font-family: 'PTSerif-Regular';
+    src: url('PTSerif-Regular.ttf') format('truetype');
+  }
+*/
+
+.global-text {
+  font-family: 'PTSerif-Regular', serif;
+  font-size: 12px;
+}
+
+.ua-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+}
+
+.doc-header-right {
+  text-align: right;
+  margin-bottom: 20px; /* Add margin to create space */
+}
+
+.doc-header-center {
+  text-align: center;
+  margin-bottom: 10px; /* Add margin to create space */
+  margin-top: 10px; /* Add margin to create space */
+}
+
+.doc-header-center p {
+  margin: 5px 0; /* Adjust the margin values as needed */
+}
+
+.normal-text-left {
+  text-align: left;
+  margin-bottom: 20px;
+  text-indent: 20px; /* Add margin to create space */
+}
+
+.indented-text {
+  text-indent: 50px;
+  margin-bottom: 20px; /* Add margin to create space */
+}
+
+.indented-text p {
+  margin-bottom: 5px; /* Adjust this value as needed */
+  margin-top: 5px;
+}
+
+.title-details {
+  overflow: hidden; /* Clears the float */
+}
+
+.left, .right {
+  width: 50%; /* Adjust as needed */
+}
+
+.left {
+  float: left;
+  text-align: left;
+}
+
+.right {
+  float: right;
+  text-align: right;
+}
+
+.table-center {
+  margin: auto;
+  width: 95%; /* Adjust the width as needed */
+  padding: 20px;
+  /* Add more styling as needed */
+}
+
+.table-sign-space {
+  margin: auto;
+  width: 95%; /* Adjust the width as needed */
+  /* Add more styling as needed */
+}
+
+.table-sign-space td {
+  border: 1px solid black;
+  padding: 50px;
+}
+
+.table-details {
+  border-collapse: collapse;
+  width: 95%;
+  margin: auto;
+}
+
+.table-details, .table-details th, .table-details td {
+  border: 1px solid black;
+}
+
+.table-details th {
+  border: 1px solid black;
+}
+
+.table-details td {
+  border-top: 0;
+  border-bottom: 0;
+}
+
+table {
+  width: 100%; /* Adjust the width as needed */
+  border-collapse: collapse;
+  table-layout: fixed; /* This is important */
+  font-size: 12px;
+}
+
+th, td {
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: middle;
+  padding: 8px;
+  font-weight: normal;
+}
